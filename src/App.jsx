@@ -11,7 +11,7 @@ import { CTA, Brand, Navbar } from "./components";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="bg-bg">
       <div className="gradient__bg">
         <Navbar />
         <Header />
