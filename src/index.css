@@ -24,6 +24,10 @@
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 }
 
+.manrope {
+    font-family: var(--font-family);
+}
+
 body {
   background: var(--color-bg);
 }
