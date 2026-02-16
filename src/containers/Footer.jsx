@@ -16,17 +16,13 @@ const Footer = () => (
     </div>
 
     <div className="flex flex-wrap justify-between items-start w-full text-left">
-      <div className="flex flex-col w-[250px] m-4">
-        <img
-          src={gpt3Logo}
-          alt="gpt3_logo"
-          className="w-[118px] h-[30px] mb-4"
-        />
+      <div className="flex flex-col w-62.5 m-4">
+        <img src={gpt3Logo} alt="gpt3_logo" className="w-29.5 h-7.5 mb-4" />
         <p className="text-xs leading-4 text-white">
           Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved
         </p>
       </div>
-      <div className="flex flex-col w-[250px] m-4">
+      <div className="flex flex-col w-62.5 m-4">
         <h4 className="text-sm leading-4 text-white mb-3">Links</h4>
         <p className="text-xs leading-4 text-white cursor-pointer mb-2">
           Overons
@@ -39,7 +35,7 @@ const Footer = () => (
         </p>
         <p className="text-xs leading-4 text-white cursor-pointer">Contact</p>
       </div>
-      <div className="flex flex-col w-[250px] m-4">
+      <div className="flex flex-col w-62.5 m-4">
         <h4 className="text-sm leading-4 text-white mb-3">Company</h4>
         <p className="text-xs leading-4 text-white cursor-pointer mb-2">
           Terms & Conditions
@@ -49,7 +45,7 @@ const Footer = () => (
         </p>
         <p className="text-xs leading-4 text-white cursor-pointer">Contact</p>
       </div>
-      <div className="flex flex-col w-[250px] m-4">
+      <div className="flex flex-col w-62.5 m-4">
         <h4 className="text-sm leading-4 text-white mb-3">Get in touch</h4>
         <p className="text-xs leading-4 text-white mb-2">
           Crechterwoord K12 182 DK Alknjkcb
