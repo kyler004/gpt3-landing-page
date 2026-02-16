@@ -3,7 +3,7 @@ import Feature from "../components/Feature";
 
 const WhatGPT3 = () => (
   <div
-    className="gpt3__whatgpt3"
+    className="gpt3__whatgpt3 section__margin"
     id="wgpt3"
   >
     <div className="flex">

@@ -2,7 +2,7 @@ import React from "react";
 import possibilityImage from "../assets/possibility.png";
 
 const Possibility = () => (
-  <div className="flex flex-col lg:flex-row" id="possibility">
+  <div className="flex flex-col lg:flex-row section__padding" id="possibility">
     <div className="flex-1 flex justify-start items-center lg:mr-8">
       <img src={possibilityImage} alt="possibility" className="w-full h-full" />
     </div>

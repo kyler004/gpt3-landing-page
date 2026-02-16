@@ -3,7 +3,7 @@ import people from "../assets/people.png";
 import ai from "../assets/ai.png";
 
 const Header = () => (
-  <div className="flex flex-col md:flex-row" id="home">
+  <div className="flex flex-col lg:flex-row section__padding" id="home">
     <div className="flex-1 flex flex-col justify-center items-start md:mr-20">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-[-0.04em] gradient__text">
         Let&apos;s Build Something amazing with GPT-3 OpenAI

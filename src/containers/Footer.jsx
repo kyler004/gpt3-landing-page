@@ -2,14 +2,14 @@ import React from "react";
 import gpt3Logo from "../assets/logo.svg";
 
 const Footer = () => (
-  <div className="flex flex-col justify-center items-center bg-gray-800 py-16">
+  <div className="flex flex-col justify-center items-center bg-gray-800 section__padding">
     <div className="w-full text-center mb-12">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-tight gradient__text">
         Do you want to step in to the future before others
       </h1>
     </div>
 
-    <div className="flex justify-center items-center py-4 border border-white text-center mb-40 cursor-pointer">
+    <div className="flex justify-center items-center py-4 px-8 border border-white text-center mb-40 cursor-pointer bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 rounded-lg shadow-lg transition-all duration-300">
       <p className="text-lg font-medium text-white tracking-wide">
         Request Early Access
       </p>
