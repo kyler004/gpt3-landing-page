@@ -3,10 +3,10 @@ import possibilityImage from "../assets/possibility.png";
 
 const Possibility = () => (
   <div className="flex flex-col lg:flex-row section__padding" id="possibility">
-    <div className="flex-1 flex justify-start items-center lg:mr-8">
+    <div className="flex-1 flex justify-start items-center lg:mr-8 slide-in-left">
       <img src={possibilityImage} alt="possibility" className="w-full h-full" />
     </div>
-    <div className="flex-1 flex flex-col justify-end items-start mt-8 lg:mt-0">
+    <div className="flex-1 flex flex-col justify-end items-start mt-8 lg:mt-0 slide-in-right">
       <h4 className="font-medium text-lg leading-7 text-cyan-400">
         Request Early Access to Get Started
       </h4>

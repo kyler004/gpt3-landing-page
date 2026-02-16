@@ -22,7 +22,7 @@ const featuresData = [
 
 const Features = () => (
   <div
-    className="w-full flex flex-col md:flex-row justify-between section__padding"
+    className="w-full flex flex-col md:flex-row justify-between section__padding fade-in-up"
     id="features"
   >
     <div className="flex-1 flex flex-col text-left md:mr-20">

@@ -4,7 +4,7 @@ import ai from "../assets/ai.png";
 
 const Header = () => (
   <div className="flex flex-col lg:flex-row section__padding" id="home">
-    <div className="flex-1 flex flex-col justify-center items-start md:mr-20">
+    <div className="flex-1 flex flex-col justify-center items-start md:mr-20 slide-in-left">
       <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-[-0.04em] gradient__text">
         Let&apos;s Build Something amazing with GPT-3 OpenAI
       </h1>
@@ -36,7 +36,7 @@ const Header = () => (
       </div>
     </div>
 
-    <div className="flex-1 flex justify-center items-center">
+    <div className="flex-1 flex justify-center items-center slide-in-right">
       <img src={ai} className="w-full h-full" />
     </div>
   </div>
